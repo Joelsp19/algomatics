@@ -13,3 +13,11 @@ Topics:
 - finding the first n Ulam Numbers
 
 ### Chapter 1.2
+
+Topics:
+
+- finding sum and product given a sequence
+- finding the sum given a geometric sequence
+- finding the nth triangular, pentagonal, tetrahedral, and perfect square numbers
+
+### Chapter 1.3
