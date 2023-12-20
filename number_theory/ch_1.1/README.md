@@ -4,7 +4,7 @@
 
 Given a number α, find rational numbers p/q such that
 
-> $$ |α - p/q| <= 1/q^2
+> $$ |α - \frac{p}{q}| <= \frac{1}{q^2}
 
 #### APROACH
 
