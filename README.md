@@ -21,3 +21,11 @@ Topics:
 - finding the nth triangular, pentagonal, tetrahedral, and perfect square numbers
 
 ### Chapter 1.3
+
+Topics:
+
+- Tower of Hanoi (sim)
+- Cover Chessboard (2^n with missing piece) (game)
+- finding egyptian numbers - sum of unit fractions
+
+### Chapter 1.4

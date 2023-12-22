@@ -41,3 +41,28 @@ Cover a 2<sup>n</sup> x 2<sup>n</sup> chessboard that is missing one square usin
 - now algorithmically, start with the corners and make your way through the square. That way you make the square smaller as you go
 - by strong induction we know that any smaller square missing a square can also be filled
   -continue working around the missing square
+
+# egyptian_fraction.py
+
+### Number Theory Programming Problem CH 1.3 #3
+
+Given a rational number p/q, express p/q as an Egyptian fraction
+
+**_Egyptian Fraction_**
+: A unit fraction is a fraction of the form 1/n, where n is a positive integer. Because the
+ancient Egyptians represented fractions as sums of distinct unit fractions, such sums are called
+Egyptian fractions
+
+#### APROACH
+
+- till we reach our target(or within a certain precision)
+- if 1/d is less than target
+- set the new target -= 1/d and add d to list of sums
+- this gives us the list of denominators where sum of (1/d) = the given target number
+
+- added an extra feature to only take the fractional part of the number, in case the give number is greater than one
+- for example, for pi, we get
+
+  > $$ [3, |, 8,61,5014] = 3+ \frac{1}{8}+\frac{1}{61}+\frac{1}{5014}+ ...
+
+- extra function that finds the fraction associated with a list of denominators of unit fractions
