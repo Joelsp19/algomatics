@@ -29,3 +29,6 @@ Topics:
 - finding egyptian numbers - sum of unit fractions
 
 ### Chapter 1.4
+
+- Fibonnaci + Lucas Sequence of n numbers
+- Zuckenborg Representation of n
